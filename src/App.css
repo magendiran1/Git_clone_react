@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+
+body{
+  margin: 24px;
+  font-family: 'Poppins', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner{
+  height: 500px;
+  width: 340px;
+  object-fit: cover;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.movies-specs{
+  display:flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.movie-name{
+  font-size: 24px;
+  margin: 8px 0px;
+ font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movies-container{
+  width: 340px;
+
+}
+
+.movie-summary{
+font-weight:bold;
+  font-family: 'Poppins', sans-serif; 
+}
+
+.movie-list{
+  display: flex;
+  gap:24px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.like-list{
+  display: flex;
+
 }
