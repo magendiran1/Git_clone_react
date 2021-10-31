@@ -49,8 +49,7 @@ movieSummary:'DCP Vijaya Kumar goes into hiding to bring up his daughter in a sa
       <section className="movie-list">
      {Movies.map(({name,Poster,rating,movieSummary,id})=>(
        <MoviesList key={id} name={name} Poster={Poster}  rating={rating} summary={movieSummary} />
-       
-     ))}
+          ))}
    
      </section>
     </div>
